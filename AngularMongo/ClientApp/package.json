@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "homepage": "https://www.ebenmonney.com/quickapp",
-  "repository": "https://github.com/emonney/quickapp.git",
+  "repository": "https://github.com/Bedo1212/AngularMongo.git",
   "scripts": {
     "ng": "ng",
     "prestart": "node aspnetcore-https",

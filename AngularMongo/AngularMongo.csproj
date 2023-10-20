@@ -6,11 +6,12 @@
     <SpaRoot>ClientApp\</SpaRoot>
     <SpaProxyServerUrl>https://localhost:44450</SpaProxyServerUrl>
     <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
-    <Description>ASPNET Core 7.0 - Angular 16 startup template for Quick Application Development</Description>
-    <Copyright>Copyright © 2023 www.ebenmonney.com</Copyright>
-    <PackageProjectUrl>https://www.ebenmonney.com/quickapp</PackageProjectUrl>
-    <Company>EBENMONNEY</Company>
+    <Description>ASPNET Core 7.0 -Mongo DB - Angular 16 startup template  Application Development</Description>
+    <Copyright>Ahmed Ebied</Copyright>
+    <PackageProjectUrl>https://github.com/Bedo1212/AngularMongo</PackageProjectUrl>
+    <Company>Ahmed Ebied</Company>
     <Version>7.6.0</Version>
+    <RepositoryUrl>https://github.com/Bedo1212/AngularMongo</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
