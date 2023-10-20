@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Version>7.6.0</Version>
+    <Description>Data Access Layer for the Quick Application template</Description>
+    <Copyright>Copyright © 2023 www.ebenmonney.com</Copyright>
+    <PackageProjectUrl>https://www.ebenmonney.com/quickapp</PackageProjectUrl>
+    <Company>EBENMONNEY</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ApplicationDbContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.Identity.Mongo" Version="8.3.3" />
+    <PackageReference Include="AspNetCore.Identity.MongoDbCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
+    <PackageReference Include="MongoDB.EntityFrameworkCore" Version="7.0.0-preview.1" />
+    <PackageReference Include="OpenIddict.MongoDb" Version="4.9.0" />
+  </ItemGroup>
+
+</Project>
